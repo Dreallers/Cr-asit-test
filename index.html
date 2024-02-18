@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CRÉASIT</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+    ></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <div class="left_part">
+          <div class="logo">
+            <img
+              id="img_logo"
+              src="assets/logo.svg"
+              alt="Logo de l'entreprise"
+            />
+          </div>
+          <ul>
+            <li>- MA COMMUNE</li>
+            <li>- MON QUOTIDIEN</li>
+            <li>- MES LOISIRS</li>
+            <li>- MES DÉMARCHES</li>
+          </ul>
+          <div class="layout_btn">
+            <div class="volet">
+              <p>JE SUIS...</p>
+              <p id="chevron">&lt;</p>
+            </div>
+            <div class="row">
+              <div class="eye"><img src="assets/oeil.png" /></div>
+              <div class="srcBar">
+                <p>RECHERCHER</p>
+                <svg
+                  id="loupe"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right_part">
+          <h1>
+            BIENVENUE<br />
+            A CRÉASIT !
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt .
+          </p>
+          <div class="ligne">
+            <div class="bulle verte"></div>
+            <div class="bulle"></div>
+            <div class="bulle"></div>
+            <div class="bulle"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services">
+        <div class="resume">
+          <h2>en un clic</h2>
+          <div class="greenBar"></div>
+          <p>
+            Retrouvez ici quelques services utiles au quotidien pour vos
+            démarches, loisirs ou informations.
+          </p>
+        </div>
+        <div class="paiement">
+          <img src="assets/ar_paiement.svg" alt="Paiement" />
+          <h3>Paiement en ligne</h3>
+        </div>
+        <div class="publications">
+          <img src="assets/ar_publications.svg" alt="Publications" />
+          <h3>Publications</h3>
+        </div>
+        <div class="location">
+          <img src="assets/ar_location.svg" alt="Location" />
+          <h3>Location de salle</h3>
+        </div>
+        <div class="urbanisme">
+          <img src="assets/ar_urbanisme.svg" alt="urbanisme" />
+          <h3>urbanisme</h3>
+        </div>
+        <div class="médiatheque">
+          <img src="assets/ar_mediatheque.svg" alt="Médiathèque" />
+          <h3>Médiathèque</h3>
+        </div>
+      </section>
+      <section class="actualités">
+        <div class="layout_actu">
+          <div class="column">
+            <div id="actu">
+              <p class="greenBar"></p>
+              <h4>en ce moment</h4>
+            </div>
+            <h2>ACTUALITES</h2>
+          </div>
+          <div class="actu_btn">
+            <p>Toutes les actualités</p>
+          </div>
+        </div>
+        <div class="all_ar">
+          <div class="ar_1">
+            <img src="assets/actu1.jpg" alt="place holder article 1" />
+            <h5>Bienvenue sur votre nouveau site internet</h5>
+            <p>
+              Nous sommes heureux de vous compter parmi les premiers
+              visiteurs<br />
+              de notre nouveau site internet. Découvrez-le en quelques mots...
+            </p>
+          </div>
+          <div class="ar_2">
+            <img src="assets/acrtu2.jpg" alt="place holder article " />
+            <h5>Titre de votre actualité sur 1 ou 2 lignes</h5>
+            <p>
+              Nous sommes heureux de vous compter parmi les premiers
+              visiteurs<br />
+              de notre nouveau site internet. Découvrez-le en quelques mots...
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="agenda">
+        <div class="layout_agenda">
+          <div class="column">
+            <div id="agenda">
+              <p class="greenBar"></p>
+              <h4>en date</h4>
+            </div>
+            <h2>AGENDA</h2>
+          </div>
+          <div class="agenda_btns">
+            <div class="date"><p>PROPOSER UNE DATE</p></div>
+            <div class="event">TOUS LES ÉVÈNEMENTS</div>
+          </div>
+        </div>
+
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="all_pics">
+                <div class="lillia">
+                  <div class="agenda_photo" id="img1">
+                    <div class="img_swiper">
+                      <div class="date_event">
+                        <h6>26 NOV.</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <p>Marché de Noël</p>
+                </div>
+                <div class="lillia">
+                  <div class="agenda_photo" id="img2">
+                    <div class="date_event">
+                      <h6>19 FEV.<br />07 MARS</h6>
+                    </div>
+                    <div class="img_swiper"></div>
+                  </div>
+                  <p>Titre de l'évènement</p>
+                </div>
+                <div class="lillia">
+                  <div class="agenda_photo" id="img3">
+                    <div class="date_event">
+                      <h6>10 SEPT.</h6>
+                    </div>
+                    <div class="img_swiper"></div>
+                  </div>
+                  <p>Courses de vélo</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="all_pics">
+                <div class="lillia">
+                  <div class="agenda_photo" id="img1">
+                    <div class="img_swiper">
+                      <div class="date_event">
+                        <h6>26 DEC.</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <p>Fin du marché</p>
+                </div>
+                <div class="lillia">
+                  <div class="agenda_photo" id="img2">
+                    <div class="date_event">
+                      <h6>19 FEV.<br />07 MARS</h6>
+                    </div>
+                    <div class="img_swiper"></div>
+                  </div>
+                  <p>Titre de l'évènement</p>
+                </div>
+                <div class="lillia">
+                  <div class="agenda_photo" id="img3">
+                    <div class="date_event">
+                      <h6>10 SEPT.</h6>
+                    </div>
+                    <div class="img_swiper"></div>
+                  </div>
+                  <p>Courses de vélo</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="garen">
+        <div class="layout_footer">
+          <section class="contact_logo">
+            <img src="assets/logo.svg" alt="Logo de l'entreprise" />
+            <p>NOUS CONTACTER</p>
+          </section>
+
+          <section class="contact_info">
+            <h6>Coordonnées</h6>
+            <p>
+              86, Rue de la ville en Pierre.<br />
+              44000 Nantes
+            </p>
+            <p>+33 (0)2 40 37 01 77</p>
+          </section>
+          <section class="horaires">
+            <h6>Horaires d'ouverture</h6>
+            <p>
+              Du lundi au vendredi:<br />
+              de 9h30 à 13h et de 14h à 17h30.<br />
+              Fermé le week-end.
+            </p>
+          </section>
+        </div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 32 32"
+          width="38px"
+          height="38px"
+        >
+          <path
+            d="M 16 4 C 9.3844276 4 4 9.3844276 4 16 C 4 22.615572 9.3844276 28 16 28 C 22.615572 28 28 22.615572 28 16 C 28 9.3844276 22.615572 4 16 4 z M 16 6 C 21.534692 6 26 10.465308 26 16 C 26 21.027386 22.311682 25.161277 17.488281 25.878906 L 17.488281 18.916016 L 20.335938 18.916016 L 20.783203 16.023438 L 17.488281 16.023438 L 17.488281 14.443359 C 17.488281 13.242359 17.882859 12.175781 19.005859 12.175781 L 20.810547 12.175781 L 20.810547 9.6523438 C 20.493547 9.6093438 19.822688 9.515625 18.554688 9.515625 C 15.906688 9.515625 14.355469 10.913609 14.355469 14.099609 L 14.355469 16.023438 L 11.632812 16.023438 L 11.632812 18.916016 L 14.355469 18.916016 L 14.355469 25.853516 C 9.6088556 25.070647 6 20.973047 6 16 C 6 10.465308 10.465308 6 16 6 z"
+          />
+        </svg>
+      </div>
+      <section class="legal">
+        <p>Accueil</p>
+        <p>Accessibilité : partiellement conforme</p>
+        <p>Plan du site</p>
+        <p>Mentions légales</p>
+        <p>Confidentialité</p>
+        <p>&copy; Créasit</p>
+      </section>
+    </footer>
+  </body>
+</html>
